@@ -11,3 +11,6 @@ console.log("end");
 
 //to rename the file:
 // fs.renameSync("./text.txt", "renamedText.txt");
+
+//to delete the file:
+ //fs.unlinkSync(path);
