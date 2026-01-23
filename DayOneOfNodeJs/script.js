@@ -1,3 +1,5 @@
+//DAY 1 : NODEJS
+
 const fs = require("fs");
 const path = require("path");
 // to read file:
@@ -14,3 +16,14 @@ console.log("end");
 
 //to delete the file:
  //fs.unlinkSync(path);
+
+//DAY2 OF NODEJS:
+
+//How to open App from code:
+
+const {exec} = require('child_process');
+exec('start chrome');
+exec('start msedge');
+
+
+ 
