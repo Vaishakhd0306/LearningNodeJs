@@ -1,0 +1,75 @@
+// ALL ABOUT TERMINAL:
+
+1. echo = used as console;
+2. pwd = PrintWorkingDirectory -> prints current directory path
+3. whoami = shows current user
+
+Navigating the file:
+1.cd = change directory
+2.cd .. = onstep back from current directory
+3. cd ~ = moves to home directory
+4.ls = list ( content list )
+5.ls -a = list all even hidden files
+
+
+Create/ Copy/ Move/ delete/ Directories
+
+1. touch = create file
+  if we need to create multiple files then : touch app.js index.js styles.css
+
+
+2. rm= remove file
+  if we need to create multiple files then : rm app.js index.js styles.css
+
+3. mkdir = creates a directory/folder
+
+4. rmdir = removes a directory/folder
+   rmdir = removes empty folder;
+   rm -r = removes folder even if it has multiple files
+
+
+5. cp = copy the file from one to another folder:
+   cp app.js src : this will copy app.js to src folder
+
+6.mv = move the file from one place to another;
+    mv script.js src : This will move script.js to src folder
+
+7. cd ./ = current directory
+
+"TERMINAL IS LIKE PROGRAMMING LANGUAGE PLATFORM WHERE WE CAN ADD COMMANDS AND DO WHAT IS REQUIRED 
+SUCH AS CREATING 1000'S OF FILE BY WRITING COMMAND IN TERMINAL; WHICH ALSO ACCEPTS IF/LOOPS ETC;
+EXAMPLE: for i in {1..1000}; do rm "app$i.js"
+
+logics such as :
+num1=10
+num2=20
+num3=$((num1+num2))
+echo $num3
+
+-----VIEWING AND EDITING FILES WITH COMMANDS:
+
+To view : use cat
+
+cat app.js ->to read app.js file;
+
+To edit : we have 2 commands:
+   1. Nano
+   2. Vim
+
+   a.nano script.js -> To edit files -> easy 
+
+   b.vim app.js-> powerful editor
+    To exit we need to click on  "esc"  button. It will show 2 modes:
+    1."Insert mode" for editing : click on i;
+     :w -> save-> write 
+     :q -> quit
+     :q! -> Force exit
+     :wq -> save and exit 
+
+TERMINAL PROMPT:
+PS means Prompt String-> PS1 and PS2; 
+WE CAN EDIT PS1 prompt and can modify how ever we need using chatgpt;
+   
+
+
+
