@@ -1,0 +1,32 @@
+// ALL ABOUT TERMINAL:
+
+1. echo = used as console;
+2. pwd = PrintWorkingDirectory -> prints current directory path
+3. whoami = shows current user
+
+Navigating the file:
+1.cd = change directory
+2.cd .. = onstep back from current directory
+3. cd ~ = moves to home directory
+4.ls = list ( content list )
+5.ls -a = list all even hidden files
+
+
+Create/ Copy/ Move/ delete/ Directories
+
+1. touch = create file
+  if we need to create multiple files then : touch app.js index.js styles.css
+
+
+2. rm= remove file
+  if we need to create multiple files then : rm app.js index.js styles.css
+
+3. mkdir = creates a directory/folder
+
+4. rmdir = removes a directory/folder
+   rmdir = removes empty folder;
+   rm -r = removes folder even if it has multiple files
+
+
+5.
+
