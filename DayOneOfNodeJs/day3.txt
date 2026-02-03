@@ -69,6 +69,7 @@ To edit : we have 2 commands:
 TERMINAL PROMPT:
 PS means Prompt String-> PS1 and PS2; 
 WE CAN EDIT PS1 prompt and can modify how ever we need using chatgpt;
+
    
 
 
